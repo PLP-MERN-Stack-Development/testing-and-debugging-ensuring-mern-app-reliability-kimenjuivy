@@ -1,0 +1,11 @@
+cd server
+type nul > .gitignore
+```
+
+Open `server/.gitignore` and paste:
+```
+node_modules/
+.env
+coverage/
+*.log
+package-lock.json
